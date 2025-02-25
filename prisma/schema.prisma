@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" // Change to "mysql" or "sqlite" based on your database
+  url      = env("DATABASE_URL") // Ensure this variable is set in .env
+}
+
+model Product {
+  id          String  @id @default(uuid())
+  name        String
+  description String
+  price       Float
+  imageUrl    String? // Store Cloudinary image URL here
+  createdAt   DateTime @default(now())
+}
+
+
