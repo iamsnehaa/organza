@@ -1,40 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Organza 🍃
 
-## Getting Started
+**Organza** is a Next.js-based e-commerce platform that specializes in selling **fruits, vegetables, groceries, and organic products**. Built with **TypeScript**, the project is currently under development and aims to provide a seamless shopping experience for customers looking for fresh and organic goods.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features (Planned & In Progress)
+- 🛒 **User Authentication** – Secure login and signup functionality
+- 🏷 **Product Listings** – Browse through a variety of organic products
+- 🔍 **Search & Filter** – Easily find what you need with advanced search options
+- 💳 **Cart & Checkout** – Add items to the cart and proceed with a smooth checkout process
+- 🌱 **Sustainable Shopping** – Promoting eco-friendly and healthy living
+- 📦 **Order Management** – Track and manage orders effortlessly
+- 💬 **User Reviews & Ratings** – Customers can share feedback on products
 
-Open (https://organza-alpha.vercel.app/) with your browser to see the result.
+## Preview:
+https://organza-alpha.vercel.app/
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
